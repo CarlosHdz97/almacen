@@ -1,1 +1,9 @@
 /* app global css */
+@font-face {
+    font-family: pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+.pacifico {
+    font-family: pacifico;
+}

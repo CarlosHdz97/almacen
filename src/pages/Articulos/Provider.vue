@@ -104,6 +104,7 @@ export default {
                             message: 'Se han actualizado los datos del proveedor'
                         });
                         this.clearForm();
+                        this.getProviders();
                         this.formProvider = false;
                     }else{
                         this.$q.notify({
